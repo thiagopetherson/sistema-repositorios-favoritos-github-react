@@ -8,6 +8,7 @@
 - Biblioteca React Icons para os ícones.
 - Biblioteca Axios para requisições HTTP.
 - Styled Components para CSS dos componentes.
+- LocalStorage
 - API do Github (Que é para onde fazemos nossas requisições e pegamos as informações dos repositórios)
 
 ![image](https://user-images.githubusercontent.com/44420212/142038515-b5afdc6b-5058-46af-b86a-7def8faca59f.png)
