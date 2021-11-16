@@ -11,7 +11,7 @@
 - LocalStorage
 - API do Github (Que é para onde fazemos nossas requisições e pegamos as informações dos repositórios)
 
-![image](https://user-images.githubusercontent.com/44420212/142038515-b5afdc6b-5058-46af-b86a-7def8faca59f.png)
+![image](https://user-images.githubusercontent.com/44420212/142040372-5e6f1576-cc23-46f6-98e3-34d731c1282b.png)
 
 - Nesse Sistema, nós buscamos o repositório que desejamos e podemos salvá-los nos nossos favoritos. 
 - Após salvar o repositório, nós podemos acessar e ver todas suas issues (que ficam paginadas).
@@ -19,7 +19,7 @@
 - Podemos filtrar e fazer a busca de acordo com o status do repositórios (Aberto, Fechado, Todos).
 - Código Limpo (Os comentários em demasia são para facilitar o entendimento de todos que vierem a manupular o código)
 
-![image](https://user-images.githubusercontent.com/44420212/142040372-5e6f1576-cc23-46f6-98e3-34d731c1282b.png)
+![image](https://user-images.githubusercontent.com/44420212/142042875-37de31b3-71ae-47b5-984c-b20cf9c9de4f.png)
 
 - Qualquer dúvida, podem me contactar por email ou pelas minhas redes: https://www.linkedin.com/in/thiago-petherson-21b7b6193/
 
