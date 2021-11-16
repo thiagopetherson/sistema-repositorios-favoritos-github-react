@@ -18,7 +18,7 @@
 - Podemos filtrar e fazer a busca de acordo com o status do repositórios (Aberto, Fechado, Todos).
 - Código Limpo (Os comentários em demasia são para facilitar o entendimento de todos que vierem a manupular o código)
 
-![image](https://user-images.githubusercontent.com/44420212/142039926-6f2a8291-2cfe-4c37-8745-3b059ad9f93c.png)
+![image](https://user-images.githubusercontent.com/44420212/142040372-5e6f1576-cc23-46f6-98e3-34d731c1282b.png)
 
 - Qualquer dúvida, podem me contactar por email ou pelas minhas redes: https://www.linkedin.com/in/thiago-petherson-21b7b6193/
 
