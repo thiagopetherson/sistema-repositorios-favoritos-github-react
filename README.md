@@ -1,4 +1,4 @@
-# Sistema de Busca, Armazenamento e Listagens de Repositórios do Github. 
+# Sistema de Busca, Armazenamento e Listagens de Repositórios do Github, usando a API do Github. 
 
 - Nesse projeto foram usados:
 - ReactJS 
