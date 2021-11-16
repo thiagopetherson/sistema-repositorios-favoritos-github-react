@@ -25,6 +25,10 @@
 
 - Ref: Esse sistema foi feito com base no curso da plataforma "Sujeito Programador", do instrutor Matheus.
 
+# (INSTALAÇÃO) Para rodar o projeto, não tem segredo:
+- Na pasta raiz do projeto, abra o terminal (o terminal que você preferir) e digite "npm install".
+- Após o procedimento padrão de instalação das dependências, rode o comando "npm start" e só correr para o abraço.
+
 Façam bom uso, bons estudos e abraços!
 
 -------------------------------------------------------------------------------------------------------------------
