@@ -1,3 +1,33 @@
+# Sistema de Busca, Armazenamento e Listagens de Repositórios do Github. 
+
+- Nesse projeto foram usados:
+- ReactJS 
+- Hooks
+- React Router Dom para o sistema de rotas dinâmicas.
+- Biblioteca Toastfy para os alertas.
+- Biblioteca React Icons para os ícones.
+- Biblioteca Axios para requisições HTTP.
+- Styled Components para CSS dos componentes.
+- API do Github (Que é para onde fazemos nossas requisições e pegamos as informações dos repositórios)
+
+![image](https://user-images.githubusercontent.com/44420212/142038515-b5afdc6b-5058-46af-b86a-7def8faca59f.png)
+
+- Nesse Sistema, nós buscamos o repositório que desejamos e podemos salvá-los nos nossos favoritos. 
+- Após salvar o repositório, nós podemos acessar e ver todas suas issues (que ficam paginadas).
+- Além disso, conseguimos acessar o próprio repositórios através de um link.
+- Podemos filtrar e fazer a busca de acordo com o status do repositórios (Aberto, Fechado, Todos).
+- Código Limpo (Os comentários em demasia são para facilitar o entendimento de todos que vierem a manupular o código)
+
+![image](https://user-images.githubusercontent.com/44420212/142039926-6f2a8291-2cfe-4c37-8745-3b059ad9f93c.png)
+
+- Qualquer dúvida, podem me contactar por email ou pelas minhas redes: https://www.linkedin.com/in/thiago-petherson-21b7b6193/
+
+- Ref: Esse sistema foi feito com base no curso da plataforma "Sujeito Programador", do instrutor Matheus.
+
+Façam bom uso, bons estudos e abraços!
+
+-------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
