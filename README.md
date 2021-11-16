@@ -23,7 +23,14 @@
 
 - Qualquer dúvida, podem me contactar por email ou pelas minhas redes: https://www.linkedin.com/in/thiago-petherson-21b7b6193/
 
-- Ref: Esse sistema foi feito com base no curso da plataforma "Sujeito Programador", do instrutor Matheus.
+
+# Propósito do Projeto: 
+
+- O propósito é praticar ReactJS e algumas de suas bibliotecas. Uso localStorage para armazenamento dos dados, porém, nada impede que usemos um backend ou uma API (feita em node ou Laravel, por exemplo) para intermediar essa integração com o banco de dados.
+
+# Referência
+
+- Esse sistema foi feito com base no curso da plataforma "Sujeito Programador", do instrutor Matheus.
 
 # (INSTALAÇÃO) Para rodar o projeto, não tem segredo:
 - Na pasta raiz do projeto, abra o terminal (o terminal que você preferir) e digite "npm install".
