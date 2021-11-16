@@ -4,6 +4,7 @@ import { Container, Form, SubmitButton, List, DeleteButton } from './styles'; //
 import { Link } from 'react-router-dom' // Importando o Link do React Router Dom
 
 import api from '../../services/api' // importando o axios
+import { toast } from 'react-toastify' // Importando a biblioteca do Toastify
 
 
 export default function Main(){
@@ -54,14 +55,16 @@ export default function Main(){
 
         // Vendo se o campo veio vazio
         if (newRepo == "") {
+          toast.error('Campo em Branco!')
           throw new Error('Você Precisa Indicar um Repositório')
         }
-
+        
         // Verificando se existe algum repositório na lista que seja igual ao buscado (se sim, não buscar)
         const hasRepos = repositorios.find(repo => repo.name == newRepo)
 
         // Vendo se o campo veio vazio
         if (hasRepos) {
+          toast.error('Esse Repositório Já Existe na Sua Lista!')
           throw new Error('Repositório Duplicado')
         }
 
@@ -75,7 +78,8 @@ export default function Main(){
         }
 
         setRepositorios([...repositorios, data]) // Vai armazenar o que já tem no estado junto com os dados que vem da requisição
-        setNewRepo('') // Limpando o campo       
+        setNewRepo('') // Limpando o campo   
+        toast.success('Repositório Adicionado com Sucesso!')    
 
       } catch (error) {
         setAlert(true)
@@ -88,7 +92,7 @@ export default function Main(){
 
     submit()
 
-  }, [newRepo, repositorios])
+  }, [newRepo, repositorios, toast])
 
   // Fazendo um callback com a função de apagar um repositório da lista
   const handleDelete = useCallback ((repoName) => {
@@ -96,8 +100,9 @@ export default function Main(){
     // Procurando na lista de tem algum repositório com esse nome (usamemos o filter do JS)
     const find = repositorios.filter(r => r.name !== repoName); // Só devolverá os repositórios com nome diferente do que está em repoName
     setRepositorios(find)
+    toast.success('Repositório Deletado com Sucesso!') 
    
-  }, [repositorios])  
+  }, [repositorios, toast])  
 
 
   return(
